@@ -1,0 +1,12 @@
+{{#if showError}}
+  <span class="error">{{errors}}</span>
+{{/if}}
+{{#each todoList as |todo|}}
+  <tr>
+    <td>{{todo.sno}}</td>
+    <td>{{todo.itemTitle}}</td>
+    <td>{{todo.dueDate}}</td>
+    <td><button type="button" class="btn btn-primary ">Edit</button></td>
+    <td><button type="button" class="btn btn-primary ">Delete</button></td>
+  </tr>
+{{/each}}

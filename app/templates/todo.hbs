@@ -1,0 +1,30 @@
+<br>
+<br>
+<h4>Todo Items  List</h4>
+
+<div class="container ">
+  <div class="well">
+
+    <p>Search your todo item :
+      <button type="button" class="btn btn-default">
+        <span class="glyphicon glyphicon-search"></span> Search
+      </button>
+    </p>
+  </div>
+
+  <table class="table table-striped ">
+    <thead>
+    <tr>
+      <th>Sno</th>
+      <th>Item Title</th>
+      <th>Due date</th>
+      <th></th>
+      <th></th>
+    </tr>
+    </thead>
+    <tbody>
+
+    {{todo-list todoList=modle}}
+    </tbody>
+  </table>
+</div>
